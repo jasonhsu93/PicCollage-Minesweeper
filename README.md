@@ -22,7 +22,7 @@ To run the game, follow these steps:
 3. Compile the Java program:
 javac Minesweeper.java
 4. Run the compiled Java program:
-java Minesweeper
+java Minesweeper\
 Follow the on-screen prompts in the terminal to start playing the game. You will be asked to enter the number of rows, columns, and mines you would like on the board.
 
 # How to Play
