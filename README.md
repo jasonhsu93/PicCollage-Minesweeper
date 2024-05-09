@@ -6,15 +6,15 @@ Customizable board size: Players can define the width and height of the game boa
 Customizable mine count: Players can set the number of mines on the board.
 Automatic win/loss detection: The game automatically detects and announces a win or loss condition.
 
-#Prerequisites
+# Prerequisites
 To run this game, you will need:
 
 Java Runtime Environment (JRE) or Java Development Kit (JDK) version 8 or higher.
 
-#Installation
+# Installation
 No installation is required. You only need to have Java installed on your machine.
 
-#Running the Game
+# Running the Game
 To run the game, follow these steps:
 
 1. Download the source code: Clone or download the zip file of the project to your local machine.
@@ -25,7 +25,7 @@ javac Minesweeper.java
 java Minesweeper
 Follow the on-screen prompts in the terminal to start playing the game. You will be asked to enter the number of rows, columns, and mines you would like on the board.
 
-#How to Play
+# How to Play
 Upon starting the game, enter the dimensions of the board and the number of mines.
 Input coordinates to reveal a spot on the board. The format is row col, where row is the row number and col is the column number. Both start from 0.
 The game will reveal the cell at the specified coordinates. If you hit a mine, the game ends. Otherwise, it will either show a number (indicating the number of adjacent mines) or automatically reveal adjacent areas if there are no adjacent mines.
