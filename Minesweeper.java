@@ -142,12 +142,12 @@ public class Minesweeper {
         if (!isInBounds(row, col) || revealed[row][col]) {
             if (row < 0 || col < 0) {
                 System.out.println("Cannot have a negative coordinate! Row and Col must be greater or equal to 0!");
-            } else if (row > rows) {
+            } else if (row >= rows) {
                 System.out.println("Row cannot be bigger than " + (rows - 1) + "!");
                 if (col >= cols) {
                     System.out.println("Col cannot be bigger than " + (cols - 1) + "!");
                 }
-            } else if (col > cols) {
+            } else if (col >= cols) {
                 System.out.println("Col cannot be bigger than " + (cols - 1) + "!");
                 if (row >= rows) {
                     System.out.println("Row cannot be bigger than " + (rows - 1) + "!");
